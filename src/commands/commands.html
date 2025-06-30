@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>KVKK Maskeleme Komutları</title>
+
+  <!-- Office.js -->
+  <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+
+  <!-- Fluent UI CSS -->
+  <link rel="stylesheet" href="https://res-1.cdn.office.net/files/fabric-cdn-prod_20230815.002/office-ui-fabric-core/11.1.0/css/fabric.min.css"/>
+
+  <style>
+    body {
+      padding: 10px;
+      font-family: "Segoe UI", sans-serif;
+      width: 250px;
+    }
+    button {
+      width: 100%;
+      margin-top: 8px;
+    }
+    #status {
+      margin-top: 15px;
+      font-size: 0.9rem;
+      color: green;
+      min-height: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <h3>Kişisel Verileri Maskele</h3>
+  <button id="maskSelectionBtn" class="ms-Button ms-Button--primary">Seçili Metni Maskele</button>
+  <div id="status"></div>
+
+  <script src="commands.js" type="module"></script>
+</body>
+</html>
